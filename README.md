@@ -37,7 +37,7 @@ Use these files to complete the exercises below.
     | Column | Type     | Description                          |
     |-------------|----------|---------------------------------|
     | aquisition_date | datetime | Calendar Date of Aquisition |
-    | aquisitions | int | Source code                          |
+    | aquisitions | int | Number of constituents acquired on acquisition_date                          |
 
 
 
