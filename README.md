@@ -20,6 +20,24 @@ Constituent Subscription Status: https://als-hiring.s3.amazonaws.com/fake_data/2
 We only care about subscription statuses where chapter_id is 1.  
 If an email is not present in this table, it is assumed to still be subscribed where chapter_id is 1.  
 
+Use these files to complete the exercises below.
+
+**Exercises**
+
+1. Produce a “people” file with the following schema. Save it as a CSV with a header line to the working directory.  
+    | Column | Type     | Description                                     |
+    |-------------|----------|--------------------------------------------|
+    | email       | string   | Primary Email Address                      |
+    | code        | string   | Source code                                |
+    | is_unsub    | boolean  | Is the primary email address unsubscribed? |
+    | create_dt   | datetime | Person creation datetime                   |
+    | modified_dt | datetime | Person updated datetime                    |  
+
+ 2. Use the output of #1 to produce an “acquisition_facts” file with the following schema that aggregates stats about when people in the dataset were acquired. Save it to the working directory.  
+    | Column | Type     | Description                          |
+    |-------------|----------|---------------------------------|
+    | aquisition_date | datetime | Calendar Date of Aquisition |
+    | aquisitions | int | Source code                          |
 
 
 
